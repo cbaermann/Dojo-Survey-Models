@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Home Page</title>
+    </head>
+
+
+    <body>
+        <form action="/info" method="POST">
+            <label>Name:</label>
+            <input type="text" name="Name">
+            <br>
+            <label>Location:</label>
+            <select name="Location">
+                <option value="Seattle">Seattle</option>
+                <option value="Boise">Boise</option>
+                <option value="Dallas">Dallas</option>
+                <option value="LA">LA</option>
+                <option value="Portland">Portland</option>
+            </select>
+            <br>
+            <label>Language:</label>
+            <select name="Language">
+                <option value="Cs">C#</option>
+                <option value="Python">Python</option>
+                <option value="Mean">Mean</option>
+                <option value="Java">Java</option>
+            </select>
+            <br>
+            <label>Comments(optional)</label>
+            <br>
+            <textarea name="Comment" rows="5"></textarea>
+            <br>
+            <input class="btn" type="submit" value="submit">
+
+        </form>
+        
+    </body>
+</html>
